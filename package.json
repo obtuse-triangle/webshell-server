@@ -1,6 +1,11 @@
 {
   "name": "webshell-server",
   "version": "0.11.0",
+  "scripts":{
+    "dev": "node app.js -p 80",
+    "build": "ls",
+    "start": "node app.js -p 80"
+  }
   "dependencies": {
     "body-parser": "^1.13.3",
     "connect-ensure-login": "^0.1.1",
